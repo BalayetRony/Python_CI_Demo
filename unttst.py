@@ -5,7 +5,7 @@ Created on Wed Nov  7 12:06:34 2018
 @author: mdb99
 """
 import unittest 
-import inc 
+from inc import inc 
 # import inc
 class MyTest(unittest.TestCase):
     def test_my_function(self):
